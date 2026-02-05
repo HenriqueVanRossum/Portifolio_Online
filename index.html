@@ -1,14 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifólio Henrique Dias</title>
-</head>
-<body>
-  <main>
-    <h1>Novo titulo</h1>
-  </main>
-  
-</body>
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Henrique Van Rossum - Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="grain"></div>
+
+		<header class="header">
+			<div class="header-content">
+				<h1 class="name" data-text="Henrique Dias">Henrique Dias Van Rossum</h1>
+				<p class="tagline">Designer • Developer • Creator • SaaS • APIs</p>
+
+				<a href="assets/cv/Henrique-Dias-CV.pdf" class="cv-button" target="_blank" rel="noopener">
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+						<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+						<polyline points="14 2 14 8 20 8"></polyline>
+						<line x1="12" y1="18" x2="12" y2="12"></line>
+						<line x1="9" y1="15" x2="15" y2="15"></line>
+					</svg>
+					Ver Currículo
+				</a>
+			</div>
+
+			<div class="status-badge">
+				<span class="status-dot"></span>
+				Disponível para projetos
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="projects-grid">
+				<!-- Projeto 01 – Portfólio -->
+				<article class="project-card" data-index="01">
+					<div class="card-number">01</div>
+					<div class="card-content">
+						<h3 class="card-title">Portfólio Pessoal</h3>
+						<p class="card-description">Site de portfólio pessoal desenvolvido com foco em design editorial, performance e experiência do usuário, integrando animações suaves, micro-interações e estrutura otimizada para SEO.</p>
+						<div class="card-tags">
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">UX/UI</span>
+							<span class="tag">Performance</span>
+							<span class="tag">SEO</span>
+						</div>
+					</div>
+					<a href="https://seu-portfolio.com" target="_blank" rel="noopener" class="card-link">
+						<span>Ver projeto</span>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
+						</svg>
+					</a>
+				</article>
+
+				<!-- Projeto 02 – LenzID Core -->
+				<article class="project-card" data-index="02">
+					<div class="card-number">02</div>
+					<div class="card-content">
+						<h3 class="card-title">LenzID – Biometria Facial</h3>
+						<p class="card-description">API de biometria facial para autenticação segura, prevenção de fraudes e combate ao compartilhamento de contas em SaaS e plataformas EAD.</p>
+						<div class="card-tags">
+							<span class="tag">Biometria</span>
+							<span class="tag">Anti-Fraud</span>
+							<span class="tag">API</span>
+							<span class="tag">PHP</span>
+							<span class="tag">Python</span>
+							<span class="tag">React</span>
+						</div>
+					</div>
+					<a href="https://lenzid.com" target="_blank" rel="noopener" class="card-link">
+						<span>Ver projeto</span>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
+						</svg>
+					</a>
+				</article>
+
+				<!-- Projeto 03 – API Pública -->
+				<article class="project-card" data-index="03">
+					<div class="card-number">03</div>
+					<div class="card-content">
+						<h3 class="card-title">LenzID – Facial Biometric API (RapidAPI)</h3>
+						<p class="card-description">Serviço de biometria facial publicado no RapidAPI, oferecendo autenticação segura, detecção de vida e prevenção de fraudes, com integração simples via API REST.</p>
+						<div class="card-tags">
+							<span class="tag">RapidAPI</span>
+							<span class="tag">Biometric API</span>
+							<span class="tag">Facial Recognition</span>
+							<span class="tag">Anti-Fraud</span>
+							<span class="tag">REST</span>
+							<span class="tag">Security</span>
+						</div>
+					</div>
+					<a href="https://rapidapi.com/lenzid-lenzid-default/api/auth-face-biometric-authentication-api" target="_blank" rel="noopener" class="card-link">
+						<span>Ver projeto</span>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
+						</svg>
+					</a>
+				</article>
+
+				<!-- Projeto 04 – Plataforma -->
+				<article class="project-card" data-index="04">
+					<div class="card-number">04</div>
+					<div class="card-content">
+						<h3 class="card-title">DigitoolWP / Revendor Pro Marketplace</h3>
+						<p class="card-description">Plugin WordPress que transforma lojas WooCommerce em marketplaces completos, com painel de fornecedores, gestão de pedidos, saques e automações logísticas.</p>
+						<div class="card-tags">
+							<span class="tag">WordPress</span>
+							<span class="tag">WooCommerce</span>
+							<span class="tag">Marketplace</span>
+							<span class="tag">PHP</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">APIs</span>
+						</div>
+					</div>
+					<a href="https://digitoolwp.com" target="_blank" rel="noopener" class="card-link">
+						<span>Ver projeto</span>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
+						</svg>
+					</a>
+				</article>
+
+				<!-- Projeto 05 – Caso real -->
+				<article class="project-card" data-index="05">
+					<div class="card-number">05</div>
+					<div class="card-content">
+						<h3 class="card-title">Porta do Universo – E-commerce WordPress</h3>
+						<p class="card-description">E-commerce desenvolvido em WordPress com foco em SEO, performance e conversão, utilizando WooCommerce e o Revendor Pro Marketplace.</p>
+						<div class="card-tags">
+							<span class="tag">WordPress</span>
+							<span class="tag">WooCommerce</span>
+							<span class="tag">SEO</span>
+							<span class="tag">Marketplace</span>
+							<span class="tag">Revendor Pro</span>
+							<span class="tag">Performance</span>
+						</div>
+					</div>
+					<a href="https://portadouniverso.com.br/" target="_blank" rel="noopener" class="card-link">
+						<span>Ver projeto</span>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
+						</svg>
+					</a>
+				</article>
+
+				<!-- Projeto 06 – Conteúdo -->
+				<article class="project-card" data-index="06">
+					<div class="card-number">06</div>
+					<div class="card-content">
+						<h3 class="card-title">LenzID Blog – Tecnologia & Segurança</h3>
+						<p class="card-description">Blog técnico focado em APIs, biometria facial, segurança digital e prevenção de fraudes, com conteúdo otimizado para SEO.</p>
+						<div class="card-tags">
+							<span class="tag">Content SEO</span>
+							<span class="tag">APIs</span>
+							<span class="tag">Biometria</span>
+							<span class="tag">Segurança</span>
+							<span class="tag">Anti-Fraud</span>
+							<span class="tag">WordPress</span>
+						</div>
+					</div>
+					<a href="https://lenzid.com/blog/" target="_blank" rel="noopener" class="card-link">
+						<span>Ver projeto</span>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square" />
+						</svg>
+					</a>
+				</article>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer-content">
+				<p class="footer-text">© 2026 Henrique Dias • Building digital products</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
 </html>
